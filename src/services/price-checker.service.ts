@@ -1,4 +1,3 @@
-import { config } from 'bluebird';
 import { NextFunction, Request, Response } from 'express';
 import Binance from 'node-binance-api';
 import { resError, resSuccess } from '../utils/response-handler.utill';
